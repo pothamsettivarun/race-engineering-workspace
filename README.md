@@ -2,9 +2,9 @@
 
 [![Tests](https://github.com/pothamsettivarun/race-engineering-portfolio/actions/workflows/tests.yml/badge.svg)](https://github.com/pothamsettivarun/race-engineering-portfolio/actions/workflows/tests.yml)
 
-This portfolio brings together a local race engineering workstation and its use in iRacing endurance setup development. During a race, the workstation shows multiclass timing, fuel range, and the next viable pit window. After a stint, it compares two laps corner by corner from the original telemetry.
+This portfolio covers Stint, a local race engineering workstation used for iRacing endurance setup development, and a separate Live Pitwall built for a 24 Hours of Lemons race. During a simulated race, Stint shows multiclass timing, fuel range, and the next viable pit window. After a stint, it compares two laps corner by corner from the original telemetry.
 
-**[Indy 8 Hour case study](examples/indy-8-hour/README.md) · [Run the workstation](#run-the-workstation) · [How it works](#how-it-works) · [Simulator validation](REMOTE_ACCEPTANCE.md)**
+**[Indy 8 Hour case study](examples/indy-8-hour/README.md) · [Live Pitwall case study](examples/live-pitwall/README.md) · [Run the workstation](#run-the-workstation) · [How it works](#how-it-works) · [Simulator validation](REMOTE_ACCEPTANCE.md)**
 
 ## Indianapolis 8 Hour setup development
 
@@ -13,6 +13,12 @@ I used the workstation to compare a baseline and five setup revisions for the Co
 ![Stint lap comparison showing the recorded v5 and baseline laps at Indianapolis and their segment deltas](docs/media/indy-best-lap.png)
 
 [See the setup changes, matched-lap screenshot, and measured CSV sample](examples/indy-8-hour/README.md).
+
+## Live Pitwall at Summit Point
+
+At Capitol Offense, I fueled the #333 Ford Escort, timed stops, and forecast pit windows. The browser-based pitwall tracks refills and lap conditions, forecasts a stop from a fuel reserve, and supports manual timing when the feed drops out.
+
+[See the demo and a worked pit-window example](examples/live-pitwall/README.md).
 
 ## Run the workstation
 
