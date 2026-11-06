@@ -252,10 +252,15 @@ class LiveTests(unittest.TestCase):
         self.feed(sample(track=999));self.assertEqual(self.live.state['map']['status'],'lap_progress')
 
     def test_sdk_absence_is_actionable_and_no_simulator_commands(self):
-        source=SDKSource()
-        with patch.dict('sys.modules', {'irsdk':None}):
+        source = SDKSource()
+        with patch('live.os') as platform, patch.dict('sys.modules', {'irsdk': None}):
+            platform.name = 'nt'
             self.assertIsNone(source.read())
-            self.assertIn('pip install',source.error)
+            self.assertIn('pip install', source.error)
+            platform.name = 'posix'
+            self.assertIsNone(source.read())
+            self.assertIn('requires Windows', source.error)
+            self.assertFalse(source.pit_command('fuel', 10))
         source.close()
 
     def test_limiter_is_not_a_critical_engine_warning(self):
