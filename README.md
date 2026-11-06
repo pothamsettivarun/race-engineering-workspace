@@ -2,7 +2,7 @@
 
 [![Tests](https://github.com/pothamsettivarun/race-engineering-workspace/actions/workflows/tests.yml/badge.svg)](https://github.com/pothamsettivarun/race-engineering-workspace/actions/workflows/tests.yml)
 
-This portfolio covers Stint, a local race engineering workstation used for iRacing endurance setup development, and a separate Live Pitwall built for a 24 Hours of Lemons race. During a simulated race, Stint shows multiclass timing, fuel range, and the next viable pit window. After a stint, it compares two laps corner by corner from the original telemetry.
+This portfolio covers my local race engineering workstation used for iRacing endurance setup development, and a separate Live Pitwall built for a 24 Hours of Lemons race. During a simulated race, it shows multiclass timing, fuel range, and the next viable pit window. After a stint, it compares two laps corner by corner from the original telemetry.
 
 **[Indy 8 Hour case study](examples/indy-8-hour/README.md) · [Live Pitwall case study](examples/live-pitwall/README.md) · [Run the workstation](#run-the-workstation) · [How it works](#how-it-works) · [Simulator validation](REMOTE_ACCEPTANCE.md)**
 
