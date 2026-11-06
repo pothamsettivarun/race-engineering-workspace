@@ -1,6 +1,6 @@
-# Race Engineering Portfolio
+# Race Engineering Workspace
 
-[![Tests](https://github.com/pothamsettivarun/race-engineering-portfolio/actions/workflows/tests.yml/badge.svg)](https://github.com/pothamsettivarun/race-engineering-portfolio/actions/workflows/tests.yml)
+[![Tests](https://github.com/pothamsettivarun/race-engineering-workspace/actions/workflows/tests.yml/badge.svg)](https://github.com/pothamsettivarun/race-engineering-workspace/actions/workflows/tests.yml)
 
 This portfolio covers Stint, a local race engineering workstation used for iRacing endurance setup development, and a separate Live Pitwall built for a 24 Hours of Lemons race. During a simulated race, Stint shows multiclass timing, fuel range, and the next viable pit window. After a stint, it compares two laps corner by corner from the original telemetry.
 
@@ -25,8 +25,8 @@ At Capitol Offense, I fueled the #333 Ford Escort, timed stops, and forecast pit
 Install Python 3.11 or newer. On Windows, clone the repo and double-click **Start Stint.cmd**, or run these PowerShell commands.
 
 ```powershell
-git clone https://github.com/pothamsettivarun/race-engineering-portfolio.git
-cd race-engineering-portfolio
+git clone https://github.com/pothamsettivarun/race-engineering-workspace.git
+cd race-engineering-workspace
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\python.exe server.py --open
