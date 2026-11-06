@@ -1,0 +1,2 @@
+PyMuPDF>=1.26,<2
+youtube-transcript-api>=1.2,<2

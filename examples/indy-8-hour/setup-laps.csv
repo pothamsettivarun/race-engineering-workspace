@@ -1,0 +1,141 @@
+setup,lap_number,lap_time_s,complete,included_in_pace,exclusion_reasons,fuel_start_l,track_temp_c
+Baseline,0,5.6333,false,false,Partial lap / outlap / discontinuity; Too short for a representative lap; Pit lane; Off track / not in world,,
+Baseline,0,0.9833,false,false,Partial lap / outlap / discontinuity; Too short for a representative lap; Pit lane,,
+Baseline,0,0.9833,false,false,Partial lap / outlap / discontinuity; Too short for a representative lap; Pit lane,,
+Baseline,0,0.9833,false,false,Partial lap / outlap / discontinuity; Too short for a representative lap; Pit lane,,
+Baseline,0,0.9833,false,false,Partial lap / outlap / discontinuity; Too short for a representative lap; Pit lane,,
+Baseline,0,83.4833,false,false,Partial lap / outlap / discontinuity,103.858,43.889
+Baseline,1,88.45,true,true,,101.63,43.889
+Baseline,2,86.0667,true,true,,99.093,43.889
+Baseline,3,86.75,true,false,Off track / not in world; Incident counter increased,96.59,43.889
+Baseline,4,86.4167,true,true,,94.118,43.889
+Baseline,5,85.65,true,false,Off track / not in world; Incident counter increased,91.572,43.889
+Baseline,6,85.7833,true,true,,89.012,43.889
+Baseline,7,85.8167,true,true,,86.455,43.889
+Baseline,8,85.6167,true,false,Off track / not in world; Incident counter increased,83.911,43.889
+Baseline,9,87.4833,true,true,,81.353,43.889
+Baseline,10,85.4,true,true,,78.917,43.889
+Baseline,11,86.0167,true,true,,76.379,43.889
+Baseline,12,86.2667,true,true,,73.803,43.889
+Baseline,13,85.7667,true,true,,71.21,43.889
+Baseline,14,85.95,true,true,,68.619,43.889
+Baseline,15,86.9333,true,true,,66.034,43.889
+Baseline,16,86.6833,true,false,Off track / not in world; Incident counter increased,63.458,43.889
+Baseline,17,86.15,true,false,Off track / not in world; Incident counter increased,60.902,43.889
+Baseline,18,88.9667,true,true,,58.381,43.889
+Baseline,19,92.2333,true,false,Off track / not in world; Incident counter increased,55.846,43.889
+Baseline,20,94.0333,true,false,Off track / not in world; Incident counter increased,53.399,43.889
+Baseline,21,7.4667,false,false,Partial lap / outlap / discontinuity; Too short for a representative lap,,
+v1,0,19.6,false,false,Partial lap / outlap / discontinuity; Pit lane,,
+v1,0,25.0167,false,false,Partial lap / outlap / discontinuity; Pit lane; Off track / not in world,,
+v1,0,70.0,false,false,Partial lap / outlap / discontinuity; Off track / not in world; Incident counter increased,,
+v1,0,12.1167,false,false,Partial lap / outlap / discontinuity; Too short for a representative lap; Off track / not in world; Incident counter increased,,
+v1,0,143.8833,false,false,Partial lap / outlap / discontinuity; Pit lane; Off track / not in world,,
+v1,0,55.0167,false,false,Partial lap / outlap / discontinuity,103.091,43.889
+v1,1,86.6167,true,true,,101.572,43.889
+v1,2,38.3667,false,false,Partial lap / outlap / discontinuity,,
+v1,2,47.1333,false,false,Partial lap / outlap / discontinuity,97.873,43.889
+v1,3,85.4167,true,true,,96.59,43.889
+v1,4,85.1667,true,true,,94.071,43.889
+v1,5,53.2833,false,false,Partial lap / outlap / discontinuity,,
+v1,5,31.9167,false,false,Partial lap / outlap / discontinuity,90.061,43.889
+v1,6,85.7833,true,true,,89.015,43.889
+v1,7,85.2833,true,true,,86.444,43.889
+v1,8,85.25,true,true,,83.914,43.889
+v1,9,85.4333,true,true,,81.367,43.889
+v1,10,85.6167,true,true,,78.807,43.889
+v1,11,85.2333,true,true,,76.27,43.889
+v1,12,20.8167,false,false,Partial lap / outlap / discontinuity,,
+v2,12,96.0,false,false,Partial lap / outlap / discontinuity; Pit lane; Off track / not in world; Incident counter increased,103.794,43.889
+v2,13,33.2,false,false,Partial lap / outlap / discontinuity,,
+v2,13,53.2167,false,false,Partial lap / outlap / discontinuity,100.588,43.889
+v2,14,85.65,true,false,Off track / not in world; Incident counter increased,99.057,43.889
+v2,15,85.7833,true,true,,96.563,43.889
+v2,16,85.1333,true,true,,94.014,43.889
+v2,17,85.1333,true,true,,91.497,43.889
+v2,18,85.2667,true,true,,88.962,43.889
+v2,19,85.3167,true,true,,86.407,43.889
+v2,20,85.0167,true,false,Off track / not in world,83.877,43.889
+v2,21,85.5833,true,true,,81.317,43.889
+v2,22,45.9,false,false,Partial lap / outlap / discontinuity,,
+v2,22,39.7333,false,false,Partial lap / outlap / discontinuity,77.414,43.889
+v2,23,85.2,true,true,,76.227,43.889
+v2,24,85.2833,true,true,,73.687,43.889
+v2,25,88.9833,true,false,Off track / not in world; Incident counter increased,71.163,43.889
+v2,26,85.2333,true,true,,68.626,43.889
+v2,27,85.5833,true,true,,66.096,43.889
+v2,28,85.3667,true,true,,63.573,43.889
+v2,29,26.0,false,false,Partial lap / outlap / discontinuity; Off track / not in world; Incident counter increased,,
+v3,29,91.5167,false,false,Partial lap / outlap / discontinuity; Pit lane; Off track / not in world; Incident counter increased,104.0,43.889
+v3,30,29.2833,false,false,Partial lap / outlap / discontinuity,,
+v3,30,20.0,false,false,Partial lap / outlap / discontinuity,,
+v3,30,37.1667,false,false,Partial lap / outlap / discontinuity,100.371,43.889
+v3,31,85.75,true,false,User exclusion,99.232,43.889
+v3,32,85.4667,true,false,User exclusion,96.739,43.889
+v3,33,85.2,true,true,,94.26,43.889
+v3,34,85.3167,true,true,,91.738,43.889
+v3,35,85.1333,true,true,,89.231,43.889
+v3,36,85.0167,true,true,,86.698,43.889
+v3,37,85.1333,true,true,,84.155,43.889
+v3,38,85.1667,true,true,,81.601,43.889
+v3,39,85.2333,true,true,,79.056,43.889
+v3,40,84.9833,true,false,Off track / not in world,76.522,43.889
+v3,41,93.8167,true,false,User exclusion,73.957,43.889
+v3,42,86.95,true,false,Off track / not in world; Incident counter increased,71.645,43.889
+v3,43,85.3167,true,false,User exclusion,69.111,43.889
+v3,44,85.4167,true,false,User exclusion,66.555,43.889
+v3,45,85.4833,true,false,User exclusion,64.01,43.889
+v3,46,7.75,false,false,Partial lap / outlap / discontinuity; Too short for a representative lap,,
+v4,0,90.7333,true,false,Pit lane; Off track / not in world,104.0,32.778
+v4,1,85.3167,true,true,,101.716,32.778
+v4,2,85.2167,true,true,,99.236,32.778
+v4,3,84.8667,true,true,,96.742,32.778
+v4,4,84.7833,true,true,,94.24,32.778
+v4,5,84.75,true,true,,91.727,32.778
+v4,6,84.7333,true,true,,89.226,32.778
+v4,7,84.7,true,true,,86.746,32.778
+v4,8,84.9667,true,true,,84.218,32.778
+v4,9,84.7833,true,true,,81.696,32.778
+v4,10,84.7,true,true,,79.19,32.778
+v4,11,84.6667,true,true,,76.684,32.778
+v4,12,84.7667,true,true,,74.176,32.778
+v4,13,84.5833,true,true,,71.665,32.778
+v4,14,84.8667,true,true,,69.124,32.778
+v4,15,84.7667,true,true,,66.625,32.778
+v4,16,84.55,true,true,,64.102,32.778
+v4,17,107.35,true,false,Pit lane; Off track / not in world; Incident counter increased,61.572,32.778
+v4,18,10.1667,false,false,Partial lap / outlap / discontinuity; Too short for a representative lap; Pit lane,,
+v5,0,22.4667,false,false,Partial lap / outlap / discontinuity; Off track / not in world,52.0,21.111
+v5,1,5.0,false,false,Partial lap / outlap / discontinuity; Too short for a representative lap,,
+v5,0,175.1167,false,false,Partial lap / outlap / discontinuity,51.898,21.111
+v5,1,85.65,true,true,,49.771,21.111
+v5,2,84.7167,true,true,,47.347,21.111
+v5,3,83.9333,true,true,,44.924,21.111
+v5,4,83.5667,true,true,,42.438,21.667
+v5,5,83.6333,true,true,,39.957,21.667
+v5,6,83.4667,true,true,,37.461,21.667
+v5,7,83.65,true,true,,34.952,21.667
+v5,8,83.9,true,true,,32.432,21.667
+v5,9,83.75,true,true,,29.952,21.667
+v5,10,83.8,true,true,,27.52,21.111
+v5,11,84.45,true,true,,25.088,21.111
+v5,12,83.6167,true,true,,22.665,21.111
+v5,13,83.8667,true,true,,20.207,21.111
+v5,14,83.8667,true,true,,17.766,21.111
+v5,15,83.2833,true,true,,15.33,21.111
+v5,16,83.8833,true,true,,12.847,21.111
+v5,17,83.8833,true,true,,10.376,21.667
+v5,18,83.7,true,true,,7.888,21.667
+v5,19,84.4167,true,true,,5.4,21.667
+v5,20,97.8667,true,false,Pit lane,2.931,21.667
+v5,21,116.8333,true,false,Pit lane,0.704,21.667
+v5,22,83.85,true,true,,21.226,22.222
+v5,23,84.5833,true,true,,18.758,22.222
+v5,24,83.7833,true,true,,16.365,22.222
+v5,25,83.9,true,true,,13.913,22.778
+v5,26,84.1333,true,true,,11.446,22.222
+v5,27,84.0667,true,true,,9.015,22.778
+v5,28,83.2667,true,true,,6.548,22.778
+v5,29,113.7667,true,false,Pit lane,4.054,22.778
+v5,30,4.9833,false,false,Partial lap / outlap / discontinuity; Too short for a representative lap; Pit lane,,
+v5,29,22.1333,false,false,Partial lap / outlap / discontinuity; Pit lane,,

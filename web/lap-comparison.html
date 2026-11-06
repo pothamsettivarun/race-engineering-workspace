@@ -1,0 +1,41 @@
+<section id="tab-lap-comparison" class="tab-panel lc-sheet" hidden>
+  <div class="section-top"><h2>Lap comparison</h2><button id="lc-refresh" type="button">Refresh recordings</button></div>
+  <div class="lc-recordings">
+    <section class="lc-recording lc-selected"><div class="section-top"><h3 class="selected-key">Selected</h3><button id="lc-import-selected" type="button">Import IBT</button><button id="lc-attach-selected" type="button" hidden>Attach original IBT</button></div>
+      <label>Recording<select id="lc-run-selected"><option value="">Choose a recording</option></select></label>
+      <label>Lap<select id="lc-lap-selected" disabled><option value="">Choose a recording first</option></select></label>
+      <p id="lc-info-selected" class="quiet"></p>
+    </section>
+    <section class="lc-recording"><div class="section-top"><h3 class="reference-key">Reference</h3><button id="lc-import-reference" type="button">Import IBT</button><button id="lc-attach-reference" type="button" hidden>Attach original IBT</button></div>
+      <label>Recording<select id="lc-run-reference"><option value="">Choose a recording</option></select></label>
+      <label>Lap<select id="lc-lap-reference" disabled><option value="">Choose a recording first</option></select></label>
+      <p id="lc-info-reference" class="quiet"></p>
+    </section>
+  </div>
+  <p id="lc-status" role="status">Choose or import two recordings to compare their laps.</p>
+  <div id="lc-results" hidden>
+    <div class="lc-result-heading"><strong id="lc-total"></strong><span>Selected − reference · positive is time lost</span><button id="lc-full" type="button">Full lap</button><span id="lc-range"></span></div>
+    <details class="lc-warnings"><summary>Comparison context and warnings</summary><ul id="lc-warnings"></ul><p id="lc-method" class="quiet"></p></details>
+    <div class="section-top"><h3>Where time is lost and gained</h3><label>Sort segments<select id="lc-sort"><option value="loss">Largest losses</option><option value="gain">Largest gains</option><option value="magnitude">Largest difference</option><option value="track">Track order</option></select></label></div>
+    <div class="lc-table-scroll"><table class="lc-segments"><thead><tr><th>Segment</th><th>Distance %</th><th>Selected</th><th>Reference</th><th>Delta</th><th>Min speed S / R</th><th>Max brake S / R</th></tr></thead><tbody id="lc-segments"></tbody></table></div>
+    <section id="lc-detail" aria-live="polite"><p>Select a segment to see its measurements.</p></section>
+    <div class="lc-analysis">
+      <div><div class="lc-zoom-controls"><label>From %<input id="lc-from" type="number" min="0" max="100" step="0.1" value="0"></label><label>To %<input id="lc-to" type="number" min="0" max="100" step="0.1" value="100"></label><button id="lc-zoom" type="button">Zoom traces</button></div><div id="lc-charts"></div></div>
+      <aside class="lc-map-pane"><div class="section-top"><h3>Track map</h3><button id="lc-fit" type="button">Fit circuit</button></div>
+        <div class="lc-map-options"><label class="selected-key"><input id="lc-show-selected" type="checkbox" checked> Selected</label><label class="reference-key"><input id="lc-show-reference" type="checkbox" checked> Reference</label><button id="lc-map-in" type="button" aria-label="Zoom map in">+</button><button id="lc-map-out" type="button" aria-label="Zoom map out">−</button><label><input id="lc-show-aerial" type="checkbox" checked> Aerial track</label></div>
+        <p id="lc-aerial-status" class="quiet" role="status"></p><p class="quiet"><a id="lc-aerial-source" target="_blank" rel="noopener noreferrer" hidden></a> <button id="lc-aerial-retry" type="button" hidden>Retry aerial image</button></p>
+        <p id="lc-map-status" class="quiet"></p><p id="lc-map-position" class="quiet"></p><div id="lc-map"></div><div id="lc-map-zones" class="zones" aria-label="Comparison corners"></div><p class="quiet">Select a corner to inspect its telemetry. Drag to pan; use +/− to zoom.</p>
+        <section id="lc-line-panel" aria-label="Driving line comparison">
+          <div class="section-top"><h3>Driving line close-up</h3><div class="lc-actions"><button id="lc-line-out" type="button" aria-label="Zoom driving lines out">−</button><button id="lc-line-in" type="button" aria-label="Zoom driving lines in">+</button><button id="lc-line-fit" type="button">Whole segment</button></div></div>
+          <p id="lc-line-readout" class="quiet" role="status"></p><div id="lc-line-detail"></div>
+          <p class="quiet">Select a corner or hover the charts to move the close-up. The aerial image shows real pavement and curbs; simulator layout and GPS alignment may differ.</p>
+        </section>
+        <div class="section-top"><h3>Segments</h3><button id="lc-edit-toggle" type="button" aria-expanded="false">Edit segments</button></div><p id="lc-provenance" class="quiet"></p>
+        <section id="lc-editor" hidden><p class="quiet">Edit corners; straights fill the spaces between them. Start &gt; end crosses the finish. Drag boundary handles or enter distances below.</p><div id="lc-corner-inputs"></div>
+          <div class="lc-actions"><button id="lc-add" type="button">Add corner</button><button id="lc-apply" type="button">Apply draft</button><button id="lc-save" type="button">Save for track</button><button id="lc-reset" type="button">Reset map</button></div><p id="lc-edit-status" role="status"></p>
+        </section>
+      </aside>
+    </div>
+
+  </div>
+</section>
