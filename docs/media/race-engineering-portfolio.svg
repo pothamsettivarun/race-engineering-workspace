@@ -1,38 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="176" viewBox="0 0 1200 176" role="img" aria-labelledby="title">
   <title id="title">Race Engineering Portfolio</title>
-  <desc id="description">A dark telemetry display with a blue and white trace, grid, and timing marks.</desc>
-  <defs>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#253042" opacity=".64"/>
-    </pattern>
-    <linearGradient id="fade">
-      <stop stop-color="#0b1019"/>
-      <stop offset="1" stop-color="#111f33"/>
-    </linearGradient>
-    <clipPath id="frame"><rect width="1200" height="300" rx="14"/></clipPath>
-  </defs>
-  <g clip-path="url(#frame)">
-    <rect width="1200" height="300" fill="url(#fade)"/>
-    <path fill="url(#grid)" d="M588 0h612v300H588z"/>
-    <path d="M0 246H1200" stroke="#314059"/>
-    <path d="M558 0v246" stroke="#314059"/>
-    <path d="M44 38h17m-17 0v17m1112-17h-17m17 0v17" stroke="#659cff" stroke-width="2"/>
-    <path d="M589 166h58l14-26 17-1 16 19 15-67 23-13 21 67 24 37 20-19 23 15 20-48 21-5 26 32 19-50 24-5 17 58 28 7 19-48 20-19 22 48 19 20 20-14 28 5 23-37h39" fill="none" stroke="#f5f8ff" stroke-width="2" opacity=".55"/>
-    <path d="M589 173h45l18-37 19 4 16 21 16-73 24-15 24 72 23 43 22-17 22 14 19-49 24-9 27 39 21-60 23 3 18 54 24 12 22-53 21-24 21 55 20 19 19-18 26 12 25-35h39" fill="none" stroke="#5e9cff" stroke-width="4" stroke-linejoin="round"/>
-    <path d="M1004 56v162" stroke="#a1b8de" opacity=".6" stroke-dasharray="4 5"/>
-    <circle cx="1004" cy="113" r="5" fill="#5e9cff" stroke="#0c1726" stroke-width="2"/>
-    <g font-family="ui-monospace,Consolas,monospace" font-size="13" letter-spacing="2">
-      <text x="45" y="64" fill="#8eb7ff">ENDURANCE TELEMETRY / 01</text>
-      <text x="46" y="220" fill="#d8e3f5" font-size="17" letter-spacing="2.5">PORTFOLIO / iRACING</text>
-      <text x="45" y="279" fill="#a7b6cf">iRACING SDK / NATIVE IBT</text>
-      <text x="1154" y="279" text-anchor="end" fill="#a7b6cf">LIVE PITWALL / LAP DELTA</text>
-      <text x="1153" y="54" text-anchor="end" fill="#8eb7ff">LAP DISTANCE</text>
-    </g>
-    <g fill="#f6f8ff" font-family="Arial, sans-serif" font-size="62" font-weight="900" font-style="italic" letter-spacing="-2.5">
-      <text x="42" y="126">RACE</text>
-      <text x="42" y="184">ENGINEERING</text>
-    </g>
-    <path d="M283 88h38l-9 13h-38zm-12 19h38l-9 13h-38z" fill="#5e9cff"/>
+  <rect width="1200" height="176" rx="8" fill="#17191c"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="48" y="80" fill="#f5f5f5" font-size="58" font-weight="700">Race Engineering Portfolio</text>
+    <text x="50" y="128" fill="#c4c8cd" font-size="30">iRacing telemetry and setup development</text>
   </g>
-  <rect x=".5" y=".5" width="1199" height="299" rx="14" fill="none" stroke="#314059"/>
 </svg>
