@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="176" viewBox="0 0 1200 176" role="img" aria-labelledby="title">
-  <title id="title">Race Engineering Portfolio</title>
-  <rect width="1200" height="176" rx="8" fill="#17191c"/>
-  <g font-family="Arial, Helvetica, sans-serif">
-    <text x="48" y="80" fill="#f5f5f5" font-size="58" font-weight="700">Race Engineering Portfolio</text>
-    <text x="50" y="128" fill="#c4c8cd" font-size="30">iRacing telemetry and setup development</text>
-  </g>
-</svg>

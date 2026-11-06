@@ -1,4 +1,4 @@
-<img src="docs/media/race-engineering-portfolio.svg" alt="Race Engineering Portfolio" width="1200">
+# Race Engineering Portfolio
 
 [![Tests](https://github.com/pothamsettivarun/race-engineering-portfolio/actions/workflows/tests.yml/badge.svg)](https://github.com/pothamsettivarun/race-engineering-portfolio/actions/workflows/tests.yml)
 
